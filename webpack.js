@@ -22,11 +22,6 @@ const config = {
             test: /\.jsx?$/,
             exclude: /node_modules[\\/](?!(impl|ut)-)/,
             use: [{
-                loader: 'thread-loader',
-                options: {
-                    workers: 4
-                }
-            }, {
                 loader: 'babel-loader',
                 options: {
                     presets: [
