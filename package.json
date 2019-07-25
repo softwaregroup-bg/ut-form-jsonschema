@@ -1,0 +1,55 @@
+{
+    "name": "ut-form-jsonschema",
+    "version": "7.0.0",
+    "main": "index.js",
+    "browser": "browser.js",
+    "dependencies": {
+        "hapi": "17.6.0",
+        "inert": "5.1.0",
+        "uuid": "3.3.2"
+    },
+    "devDependencies": {
+        "@material-ui/core": "4.2.1",
+        "@material-ui/icons": "4.2.1",
+        "compression-webpack-plugin": "2.0.0",
+        "html-webpack-plugin": "2.30.1",
+        "react-dom": "^16.8.6",
+        "react-jsonschema-form": "1.7.0",
+        "react": "^16.8.6",
+        "rjsf-material-ui": "0.3.4",
+        "tap": "^12.6.2",
+        "ut-browser-request": "^1.0.2",
+        "ut-tools": "^6.21.0",
+        "webpack": "^4.37.0"
+    },
+    "peerDependencies": {
+    },
+    "scripts": {
+        "lint": "ut-lint .",
+        "release": "node webpack && ut-release",
+        "changelog": "ut-changelog",
+        "check": "ut-check",
+        "cover": "ut-cover-parallel",
+        "lint-js": "ut-lint-js .",
+        "postpublish": "ut-postpublish",
+        "postversion": "ut-postversion",
+        "precommit": "ut-precommit",
+        "precover": "ut-precover",
+        "prepublish": "ut-prepublish",
+        "prepush": "ut-prepush",
+        "pretest": "ut-pretest",
+        "preversion": "ut-preversion",
+        "test": "ut-test-parallel",
+        "version": "ut-version",
+        "jenkins": "ut-jenkins",
+        "gitlab": "ut-gitlab"
+    },
+    "publishConfig": {
+        "registry": "https://nexus.softwaregroup.com/repository/npm-internal"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:softwaregroup-bg/ut-form-jsonschema.git"
+      },
+    "license": "Apache-2.0"
+}
