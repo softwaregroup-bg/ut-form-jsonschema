@@ -1,3 +1,12 @@
+## [7.1.3](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.2...v7.1.3) (2019-09-05)
+
+
+### Bug Fixes
+
+* update dependencies ([3413ba3](https://github.com/softwaregroup-bg/ut-form-jsonschema/commit/3413ba3))
+
+
+
 ## [7.1.2](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.1...v7.1.2) (2019-07-25)
 
 
