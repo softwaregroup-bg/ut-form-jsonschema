@@ -1,7 +1,7 @@
 const uuid = require('uuid');
 const servers = {};
-const hapi = require('hapi');
-const inert = require('inert');
+const hapi = require('@hapi/hapi');
+const inert = require('@hapi/inert');
 const path = require('path');
 
 async function callHandler(request, h, handler, log) {
