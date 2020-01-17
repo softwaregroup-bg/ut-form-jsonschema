@@ -1,3 +1,7 @@
+## [7.1.5](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.4...v7.1.5) (2020-01-17)
+
+
+
 ## [7.1.4](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.3...v7.1.4) (2019-10-24)
 
 

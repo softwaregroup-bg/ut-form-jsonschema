@@ -1,6 +1,6 @@
 {
   "name": "ut-form-jsonschema",
-  "version": "7.1.4",
+  "version": "7.1.5",
   "main": "index.js",
   "browser": "browser.js",
   "dependencies": {
