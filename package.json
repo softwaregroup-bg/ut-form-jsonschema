@@ -25,9 +25,9 @@
     "react-jsonschema-form": "1.8.0",
     "react": "^16.9.0",
     "rjsf-material-ui": "0.3.6",
-    "tap": "^12.6.2",
+    "tap": "^13.1.1",
     "ut-browser-request": "^1.0.2",
-    "ut-tools": "^6.23.3",
+    "ut-tools": "^6.30.5",
     "webpack": "^4.39.3"
   },
   "peerDependencies": {},
