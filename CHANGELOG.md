@@ -1,3 +1,13 @@
+## [7.1.6](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.5...v7.1.6) (2020-10-28)
+
+
+### Bug Fixes
+
+* upgrade hapi ([b80691f](https://github.com/softwaregroup-bg/ut-form-jsonschema/commit/b80691f85d7ec230e84e367960520e56fdb93186))
+* upgrade material-ui ([86b87ae](https://github.com/softwaregroup-bg/ut-form-jsonschema/commit/86b87ae6c69bd482c8b4b85442bf4affba2e2c14))
+
+
+
 ## [7.1.5](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.4...v7.1.5) (2020-01-17)
 
 
