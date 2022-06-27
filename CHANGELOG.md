@@ -1,3 +1,12 @@
+## [7.1.7](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.6...v7.1.7) (2022-06-27)
+
+
+### Bug Fixes
+
+* support node 16 ([b4dd8bf](https://github.com/softwaregroup-bg/ut-form-jsonschema/commit/b4dd8bf6127f90de0d28589830ab52be431eca3e))
+
+
+
 ## [7.1.6](https://github.com/softwaregroup-bg/ut-form-jsonschema/compare/v7.1.5...v7.1.6) (2020-10-28)
 
 
