@@ -11,13 +11,14 @@ class JsonForm extends Component {
         super(props);
         this.state = {};
     }
+
     render() {
         const submit = ({formData}) => {
             request.post({url: 'submit', json: true, body: formData}, (error, response) => {
                 if (error) {
-
+                    //
                 } else if (response.statusCode < 200 || response.statusCode >= 300) {
-
+                    //
                 } else {
                     if (response.body.redirect) {
                         window.location.pathname = response.body.redirect;
@@ -30,17 +31,18 @@ class JsonForm extends Component {
         const {schema, formData = {}, uiSchema = {}, buttons = [{}]} = this.state;
         return schema ? <Form schema={schema} uiSchema={uiSchema} formData={formData} onSubmit={submit}>
             <Box mt={2}>{
-                buttons.map(({title = 'Submit', ...rest}) =>
-                    <Button variant='contained' color='primary' type='submit' {...rest}>{title}</Button>)
+                buttons.map(({title = 'Submit', ...rest}, index) =>
+                    <Button key={index} variant='contained' color='primary' type='submit' {...rest}>{title}</Button>)
             }</Box>
         </Form> : 'Loading...';
     }
+
     componentDidMount() {
         request.get({url: 'state.json', json: true}, (error, response) => {
             if (error) {
-
+                //
             } else if (response.statusCode < 200 || response.statusCode >= 300) {
-
+                //
             } else {
                 this.setState(response.body);
             }
