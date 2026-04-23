@@ -6,7 +6,7 @@
   "dependencies": {
     "@hapi/hapi": "20.2.1",
     "@hapi/inert": "6.0.5",
-    "uuid": "8.3.2"
+    "uuid": "14.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.18.5",
